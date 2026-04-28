@@ -1,0 +1,61 @@
+.container {
+  background-color: #eee;
+  padding: 20px;
+  width: 500px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+}
+
+.botao {
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.botao:hover {
+  transform: scale(1.1); 
+}
+
+.botao:active {
+  transform: scale(0.95);
+}
+
+/* Cores específicas */
+.cadastrar {
+  background-color: green;
+}
+
+.editar {
+  background-color: #17a2b8;
+}
+
+.listar {
+  background-color: orange;
+}
+
+.excluir {
+  background-color: crimson;
+}
+
+.cancelar {
+  background-color: gray;
+}
