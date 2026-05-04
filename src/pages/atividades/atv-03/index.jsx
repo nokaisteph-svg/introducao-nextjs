@@ -43,7 +43,7 @@ export default function Atividade03() {
 
         <button
           className={`${styles.botao} ${styles.cancelar}`}
-          onClick={() => setAcao('cancelar')}
+          onClick={() => setAcao('Cancelar')}
         >
           Cancelar
         </button>

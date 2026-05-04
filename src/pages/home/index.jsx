@@ -20,7 +20,7 @@ function Home() {
                 <h2>Atividades</h2>
             <Link to="/atividade/1">Atividade 1 - Uso de estilização com module </Link>
             <Link to="/atividade/2">Atividade 2 - Contador </Link>
-            <Link to="/atividade/3">Atividade 3 - Contador com Cor </Link>
+            <Link to="/atividade/3">Atividade 3 - Botões </Link>
      
             </div>
         </div>
