@@ -13,6 +13,7 @@ function Home() {
             <Link to="/exemplo/2">Exemplo 2 - Uso de estilização com module </Link>
              <Link to="/exemplo/3">Exemplo 3 - botao </Link>
              <Link to="/exemplo/4">Exemplo 4 - botao de cor</Link>
+             <Link to="/exemplo/5">Exemplo 5 - Formulario</Link>
        
 
             </div>
@@ -21,6 +22,7 @@ function Home() {
             <Link to="/atividade/1">Atividade 1 - Uso de estilização com module </Link>
             <Link to="/atividade/2">Atividade 2 - Contador </Link>
             <Link to="/atividade/3">Atividade 3 - Botões </Link>
+            <Link to="/atividade/4">Atividade 4 - Lista de Itens </Link>
      
             </div>
         </div>
