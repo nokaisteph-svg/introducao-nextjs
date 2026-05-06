@@ -34,7 +34,7 @@ export default function Atividade04() {
                 <label htmlFor="userio">Item:</label>
                 {/* exemplo básico entrada de dados */}
                 <input
-                    id="userio"
+                    id="user"
                     type="Int"
                     placeholder='Qtd'
                     value={Qnt}
@@ -49,9 +49,9 @@ export default function Atividade04() {
                 <input
                     id="user"
                     type="text"
-                    placeholder='Insira o item aqui'
-                    value={nome}
-                    onChange={e => setNome(e.target.value)}
+                    placeholder='Insira seu nome aqui'
+                    value={formData.nome}
+                    onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
                 />
                 {/* exemplo uso real */}
                 {/* <input
