@@ -31,7 +31,7 @@ export default function Atividade04() {
             <h1>Atividade 4 - Lista de Compra</h1>
 
             <form onSubmit={handleSubmit} className={styles.Quant}>
-                <label htmlFor="userio">Item:</label>
+                
                 {/* exemplo básico entrada de dados */}
                 <input
                     id="user"
@@ -49,8 +49,8 @@ export default function Atividade04() {
                 <input
                     id="user"
                     type="text"
-                    placeholder='Insira seu nome aqui'
-                    value={formData.nome}
+                    placeholder='Insira o item aqui'
+                    value={nome}
                     onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
                 />
                 {/* exemplo uso real */}
