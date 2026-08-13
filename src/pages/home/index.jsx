@@ -14,6 +14,7 @@ function Home() {
              <Link to="/exemplo/3">Exemplo 3 - botao </Link>
              <Link to="/exemplo/4">Exemplo 4 - botao de cor</Link>
              <Link to="/exemplo/5">Exemplo 5 - Formulario</Link>
+             <Link to="/exemplo/6">Exemplo 6 - Formulario</Link>
        
 
             </div>
